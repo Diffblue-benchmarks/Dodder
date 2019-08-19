@@ -157,3 +157,297 @@ phases:
       unwind: 16
       # Add constraint that strings are printable
       string-printable: false
+units:
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/util/ExtensionUtil.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/util/ExtensionUtil.java
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/entity/Tree.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/entity/Tree.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/util/StringUtil.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/util/StringUtil.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/util/FileTypeUtil.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/util/FileTypeUtil.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/entity/Node.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/entity/Node.java
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/util/FileTypeUtil.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/util/FileTypeUtil.java
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/entity/Node.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/entity/Node.java
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/entity/Torrent.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/entity/Torrent.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/entity/Torrent$TorrentBuilder.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/entity/Torrent.java
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/entity/Torrent$TorrentBuilder.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/entity/Torrent.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/entity/Torrent.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/entity/Torrent.java
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/entity/Torrent.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/entity/Torrent.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/entity/Torrent$TorrentBuilder.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/entity/Torrent.java
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/entity/Torrent$TorrentBuilder.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/entity/Torrent.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/entity/Torrent.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/entity/Torrent.java
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/vo/TorrentPageVO.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/vo/TorrentPageVO.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/vo/TorrentPageVO$TorrentPageVOBuilder.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/vo/TorrentPageVO.java
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/vo/TorrentPageVO$TorrentPageVOBuilder.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/vo/TorrentPageVO.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/vo/TorrentPageVO.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/vo/TorrentPageVO.java
+ - target:
+   - dir: dodder-torrent-download-service/target/classes
+     file: cc/dodder/torrent/download/client/Constants.class
+     sourceDir: dodder-torrent-download-service/src/main/java
+     sourceFile: cc/dodder/torrent/download/client/Constants.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/util/NodeIdUtil.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/util/NodeIdUtil.java
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/vo/TorrentPageVO.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/vo/TorrentPageVO.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/vo/TorrentPageVO$TorrentPageVOBuilder.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/vo/TorrentPageVO.java
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/vo/TorrentPageVO$TorrentPageVOBuilder.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/vo/TorrentPageVO.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/vo/TorrentPageVO.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/vo/TorrentPageVO.java
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/request/SearchRequest.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/request/SearchRequest.java
+ - target:
+   - dir: dodder-web/target/classes
+     file: cc/dodder/web/dialect/GlobalUtilExpressionObjectFactory.class
+     sourceDir: dodder-web/src/main/java
+     sourceFile: cc/dodder/web/dialect/GlobalUtilExpressionObjectFactory.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/util/StringUtil.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/util/StringUtil.java
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/vo/TorrentVO$TorrentVOBuilder.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/vo/TorrentVO.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/entity/Torrent.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/entity/Torrent.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/vo/TorrentVO.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/vo/TorrentVO.java
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/vo/TorrentVO.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/vo/TorrentVO.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/entity/Torrent.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/entity/Torrent.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/vo/TorrentVO$TorrentVOBuilder.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/vo/TorrentVO.java
+ - target:
+   - dir: dodder-torrent-store-service/target/classes
+     file: cc/dodder/torrent/store/service/TorrentService.class
+     sourceDir: dodder-torrent-store-service/src/main/java
+     sourceFile: cc/dodder/torrent/store/service/TorrentService.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/request/SearchRequest.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/request/SearchRequest.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/entity/Torrent.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/entity/Torrent.java
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/util/NodeIdUtil.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/util/NodeIdUtil.java
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/vo/TorrentVO$TorrentVOBuilder.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/vo/TorrentVO.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/entity/Torrent.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/entity/Torrent.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/vo/TorrentVO.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/vo/TorrentVO.java
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/vo/TorrentVO.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/vo/TorrentVO.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/entity/Torrent.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/entity/Torrent.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/vo/TorrentVO$TorrentVOBuilder.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/vo/TorrentVO.java
+ - target:
+   - dir: dodder-dht-server/target/classes
+     file: cc/dodder/dhtserver/netty/schedule/AutoJoinDHT.class
+     sourceDir: dodder-dht-server/src/main/java
+     sourceFile: cc/dodder/dhtserver/netty/schedule/AutoJoinDHT.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/util/NodeIdUtil.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/util/NodeIdUtil.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/util/bencode/BencodingUtils.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/util/bencode/BencodingUtils.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/util/bencode/BencodingOutputStream.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/util/bencode/BencodingOutputStream.java
+   - dir: dodder-dht-server/target/classes
+     file: cc/dodder/dhtserver/netty/entity/UniqueBlockingQueue.class
+     sourceDir: dodder-dht-server/src/main/java
+     sourceFile: cc/dodder/dhtserver/netty/entity/UniqueBlockingQueue.java
+   - dir: dodder-dht-server/target/classes
+     file: cc/dodder/dhtserver/netty/DHTServer.class
+     sourceDir: dodder-dht-server/src/main/java
+     sourceFile: cc/dodder/dhtserver/netty/DHTServer.java
+   - dir: dodder-dht-server/target/classes
+     file: cc/dodder/dhtserver/netty/handler/DHTServerHandler.class
+     sourceDir: dodder-dht-server/src/main/java
+     sourceFile: cc/dodder/dhtserver/netty/handler/DHTServerHandler.java
+ - target:
+   - dir: dodder-dht-server/target/classes
+     file: cc/dodder/dhtserver/netty/config/DHTChannelInitializer.class
+     sourceDir: dodder-dht-server/src/main/java
+     sourceFile: cc/dodder/dhtserver/netty/config/DHTChannelInitializer.java
+ - target:
+   - dir: dodder-torrent-download-service/target/classes
+     file: cc/dodder/torrent/download/util/SpringContextUtil.class
+     sourceDir: dodder-torrent-download-service/src/main/java
+     sourceFile: cc/dodder/torrent/download/util/SpringContextUtil.java
+ - target:
+   - dir: dodder-web/target/classes
+     file: cc/dodder/web/dialect/GlobalUtilDialect.class
+     sourceDir: dodder-web/src/main/java
+     sourceFile: cc/dodder/web/dialect/GlobalUtilDialect.java
+   - dir: dodder-web/target/classes
+     file: cc/dodder/web/dialect/GlobalUtilExpressionObjectFactory.class
+     sourceDir: dodder-web/src/main/java
+     sourceFile: cc/dodder/web/dialect/GlobalUtilExpressionObjectFactory.java
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/util/SystemClock.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/util/SystemClock.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/util/SystemClock$1.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/util/SystemClock.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/util/SystemClock$2.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/util/SystemClock.java
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/util/SystemClock$InstanceHolder.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/util/SystemClock.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/util/SystemClock.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/util/SystemClock.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/util/SystemClock$2.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/util/SystemClock.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/util/SystemClock$1.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/util/SystemClock.java
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/util/SystemClock$2.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/util/SystemClock.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/util/SystemClock.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/util/SystemClock.java
+ - target:
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/util/SystemClock$1.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/util/SystemClock.java
+   - dir: dodder-common/target/classes
+     file: cc/dodder/common/util/SystemClock.class
+     sourceDir: dodder-common/src/main/java
+     sourceFile: cc/dodder/common/util/SystemClock.java
